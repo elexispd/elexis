@@ -1,0 +1,124 @@
+body{
+	background:#FFEEDF;
+	font-family: helvetica !important;
+}
+
+a{
+	color:#000000;
+}
+a:hover{
+	color:#000000;
+	text-decoration: none;
+}
+.center{
+	display: flex;
+	justify-content: center;
+	margin:auto;
+}
+.sidebar{
+	height: auto;
+	background:#FFEEDF;
+}
+.input{
+	border-radius: 2px;
+	border:none;
+	/*padding-left: 40px;*/
+	font-size: 18px;
+	box-shadow: 2px 2px #0748CC;
+}
+.round:focus{
+	outline: none;
+	padding-left: 10px;
+}
+::placeholder{
+	/*padding-left: 10px;*/
+}
+.online{font-size: 14px;}
+img{
+	width: 60px;
+	height:60px;
+	border-radius: 50%;
+}
+
+li{
+	background:#FFEEDF !important;	
+}
+.list{
+	padding:10px;
+	border-top: 0 solid #F6D8BB;
+	border-bottom: 1px solid #F6D8BB;
+	box-shadow: 0 0.2px  0 #000080;
+}
+.list:first-child{
+	border-top: none;
+}
+@media screen and (max-width: 990px){
+	body{
+		background:#FFEEDF !important;
+	}
+	.selected-user{
+		font-size: 15px;
+	}
+	.last-seen{font-size: 10px !important;}
+	.dropdown-menu{margin-right: 50px !important; background-color: yellow !important; min-width: 100%;}
+
+}
+.wrapper{
+	position: relative;
+}
+.friends{
+	position: fixed;
+	right: 10px;
+	bottom:50px;
+	border:1px solid #F6D8BB;
+	background-color: #000000;
+	border-radius: 50%;
+	padding: 6px 12px;
+	z-index: 99;
+}
+.fa-comment-alt{
+	color: #FFEEDF;
+	font-size: 23px !important;
+	padding-top:8px;
+	padding-bottom: 7px;
+}
+.unread{
+	border:1px solid #000000;
+	background-color: #000000;
+	color: #FFEEDF;
+	border-radius: 50%;
+	padding:0 5px;
+}
+.form{
+	/*width: 400px;*/
+	margin:15px !important;
+}
+
+.form input{max-width: 300px;}
+.form button{margin-left: 20px;}
+
+#preloader {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #fefefe;
+z-index: 99;
+height: 100%;
+}
+  
+
+ 
+ 
+#status img{
+width: 200px;
+height: 200px;
+position: absolute;
+left: 50%;
+top: 50%;
+background-repeat: no-repeat;
+background-position: center;
+margin: -100px 0 0 -100px;
+}
+/*+++++++++++++++++++++++++MENU++++++++++++++++++++*/
